@@ -1,0 +1,54 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto");
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form > input {
+  border: 1rem;
+  margin: 0.5rem;
+  height: 40px;
+  width: 15rem;
+  font-family: roboto;
+  background-color: #ffffff;
+  color: #fe5800;
+  text-indent: 10px;
+}
+.form ::placeholder {
+  transform: matrix();
+  font-size: large;
+  text-align: left;
+  text-indent: 10px;
+  color: #f034e0;
+  background-color: transparent;
+}
+.form > input:focus {
+  border: #fb02a8;
+  border: none;
+  background-color: #000000;
+}
+.form > textarea::placeholder {
+  transform: matrix();
+  font-size: large;
+  text-align: center;
+  color: #000000;
+}
+.form > textarea {
+  margin: 0.5rem;
+  height: 10rem;
+  width: 15rem;
+  font-family: roboto;
+  background-color: #ffffff;
+  color: #745e52;
+  text-indent: 10px;
+}
+.form > button {
+  margin: 0.5rem;
+  height: 40px;
+  width: 120px;
+  text-align: center;
+  background-color: #fe5800;
+  color: #ffffff;
+  font-size: 30px;
+}
